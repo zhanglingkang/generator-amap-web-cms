@@ -1,0 +1,17 @@
+@import "compass";
+
+.search-section {
+  .form-lba {
+    float: left;
+  }
+  .btn {
+    float: right;
+  }
+}
+
+.resource-status {
+  vertical-align: super;
+  display: inline-block;
+  margin-right: 5px;
+  width: 60px;
+}

@@ -1,0 +1,8 @@
+{{extend ("./parent")}}
+
+{{#block ("head")}}
+{{/block}}
+
+{{#block ("body")}}
+<script src="./menu2.js"></script>
+{{/block}}

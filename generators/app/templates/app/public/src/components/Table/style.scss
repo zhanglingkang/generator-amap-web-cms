@@ -1,0 +1,36 @@
+@import "compass";
+
+.fixedDataTableLayout_header {
+  .fixedDataTableCellGroupLayout_cellGroup {
+    border-bottom: 3px solid #d3dadf;
+  }
+  .public_fixedDataTableCell_wrap3, .public_fixedDataTableCell_cellContent {
+    background-color: white;
+  }
+}
+
+.fixedDataTableLayout_main {
+  border: 1px solid #e2e7eb;
+}
+
+.public_fixedDataTableCell_main {
+  background-color: #f0f3f5;
+}
+
+.public_fixedDataTableRow_highlighted,
+.public_fixedDataTableRow_highlighted .public_fixedDataTableCell_main {
+  background-color: #fff;
+}
+
+.page-section {
+  > nav {
+    float: right;
+  }
+  .pagination {
+    a {
+      cursor: pointer;
+      margin: 0 5px;
+      border-radius: 2px;
+    }
+  }
+}

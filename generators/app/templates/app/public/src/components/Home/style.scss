@@ -1,0 +1,68 @@
+.card {
+  width: 340px;
+  padding: 20px 10px;
+  color: white;
+  .number {
+    font-size: 28px;
+  }
+}
+
+.home {
+  .income {
+    background-color: #0091ff;
+    .money {
+      font-size: 28px;
+    }
+    .unit {
+      font-size: 28px;
+    }
+  }
+  .statistics {
+    .card-container {
+      > * {
+        text-align: center;
+        //padding: 0 15px;
+      }
+      > div:last-child p {
+        border: none;
+      }
+    }
+    background-color: #00acac;
+    p {
+      padding: 0 15px;
+      border-right: 1px solid white;
+    }
+  }
+  .index-row {
+    span {
+      font-size: 22px;
+    }
+    margin-bottom: 50px;
+  }
+  .chart-title {
+    color: #3fa1ff;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  .left-border {
+    margin-left: 20px;
+    position: relative;
+    &:before {
+      content: " ";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 20px;
+      background-color: #0091ff;
+    }
+  }
+  .chart-container {
+    height: 500px;
+  }
+  .dropdown-toggle > span {
+    padding-left: 1px;
+  }
+}
+
+
