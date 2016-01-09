@@ -3,8 +3,7 @@ var CommonsChunkPlugin = require("webpack/lib/optimize/CommonsChunkPlugin")
 module.exports = {
     entry: {
         home: ['./src/home'],
-        menu1: ['./src/menu1'],
-        menu2: ['./src/menu2']
+        menu1: ['./src/menu1']
     },
     output: {
         path: path.join(__dirname, "src"),

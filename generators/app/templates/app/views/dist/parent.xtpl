@@ -1,0 +1,16 @@
+<html>
+<head>
+  <meta name="charset" content="utf-8"/>
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css"/>
+  <link rel="stylesheet" href="vendor/@alife/amap-web-cms-ui/dist/amap-web-cms-ui.css"/>
+  {{{block ("head")}}}
+</head>
+<body>
+<div id="react-root"></div>
+<script src="vendor/react/dist/react.js"></script>
+<script src="vendor/react-dom/dist/react-dom.js"></script>
+<script src="common.js"></script>
+{{{block ("body")}}}
+</body>
+</html>

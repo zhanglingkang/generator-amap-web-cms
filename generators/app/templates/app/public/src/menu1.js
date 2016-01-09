@@ -1,20 +1,13 @@
 var React = require('react')
 var ReactDOM = require('react-dom')
 var {Router,Route,Link,IndexRoute} = require('react-router')
-var $ = require('jquery')
-var {AppContainer}=require('@alife/lba-common')
-var Generalize = require('./components/Generalize')
-var MediaResourceSet = require('./components/MediaResourceSet')
-//var createHistory = require('history/lib/createHashHistory')
-//var history = createHistory({
-//    queryKey: false
-//})
+var AppWrapper = require('./components/AppWrapper')
+var Menu1 = require('./components/Menu1')
 var route = (
     <Router>
-        <Route path="/" component={AppContainer}>
-            <IndexRoute component={Generalize}/>
-            <Route path="mediaResourceSet" component={MediaResourceSet}/>
+        <Route path="/" component={AppWrapper}>
+            <IndexRoute component={Menu1}/>
         </Route>
     </Router>
 )
-ReactDOM.render(route, $('#react-root')[0])
+ReactDOM.render(route, document.getElementById('react-root'))

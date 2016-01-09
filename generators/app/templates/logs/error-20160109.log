@@ -1,0 +1,61 @@
+[2016-01-09 20:16:28.731] [ERROR] error - { [Error: XTemplate error in file: E:/.xtpl at line 1: ENOENT: no such file or directory, open 'E:\.xtpl']
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\.xtpl',
+  xtpl: { pos: { line: 1 }, name: 'E:/.xtpl' } }
+XTemplate error in file: E:/.xtpl at line 1: Error: ENOENT: no such file or directory, open 'E:\.xtpl'
+    at Error (native)
+    at Object.fs.openSync (fs.js:585:18)
+    at Object.fs.readFileSync (fs.js:432:33)
+    at readFileSync (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\xtpl\lib\xtpl.js:87:22)
+    at readFile (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\xtpl\lib\xtpl.js:105:15)
+    at getTplFn (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\xtpl\lib\xtpl.js:52:5)
+    at Object.loader.load (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\xtpl\lib\xtpl.js:148:13)
+    at XTemplate.render (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\xtemplate\lib\runtime.js:370:21)
+    at XTemplate.render (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\xtemplate\lib\index.js:65:46)
+    at Object.render (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\xtpl\lib\xtpl.js:192:12)
+[2016-01-09 20:16:28.889] [ERROR] error - { [Error: XTemplate error in file: E:/favicon.ico.xtpl at line 1: ENOENT: no such file or directory, open 'E:\favicon.ico.xtpl']
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\favicon.ico.xtpl',
+  xtpl: { pos: { line: 1 }, name: 'E:/favicon.ico.xtpl' } }
+XTemplate error in file: E:/favicon.ico.xtpl at line 1: Error: ENOENT: no such file or directory, open 'E:\favicon.ico.xtpl'
+    at Error (native)
+    at Object.fs.openSync (fs.js:585:18)
+    at Object.fs.readFileSync (fs.js:432:33)
+    at readFileSync (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\xtpl\lib\xtpl.js:87:22)
+    at readFile (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\xtpl\lib\xtpl.js:105:15)
+    at getTplFn (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\xtpl\lib\xtpl.js:52:5)
+    at Object.loader.load (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\xtpl\lib\xtpl.js:148:13)
+    at XTemplate.render (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\xtemplate\lib\runtime.js:370:21)
+    at XTemplate.render (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\xtemplate\lib\index.js:65:46)
+    at Object.render (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\xtpl\lib\xtpl.js:192:12)
+[2016-01-09 20:16:48.051] [ERROR] error - { [Error: XTemplate error in file: E:/home.xtpl at line 1: ENOENT: no such file or directory, open 'E:\home.xtpl']
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\home.xtpl',
+  xtpl: { pos: { line: 1 }, name: 'E:/home.xtpl' } }
+XTemplate error in file: E:/home.xtpl at line 1: Error: ENOENT: no such file or directory, open 'E:\home.xtpl'
+    at Error (native)
+    at Object.fs.openSync (fs.js:585:18)
+    at Object.fs.readFileSync (fs.js:432:33)
+    at readFileSync (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\xtpl\lib\xtpl.js:87:22)
+    at readFile (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\xtpl\lib\xtpl.js:105:15)
+    at getTplFn (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\xtpl\lib\xtpl.js:52:5)
+    at Object.loader.load (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\xtpl\lib\xtpl.js:148:13)
+    at XTemplate.render (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\xtemplate\lib\runtime.js:370:21)
+    at XTemplate.render (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\xtemplate\lib\index.js:65:46)
+    at Object.render (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\xtpl\lib\xtpl.js:192:12)
+[2016-01-09 20:19:30.988] [ERROR] error - [TypeError: this.path.startsWidth is not a function]
+TypeError: this.path.startsWidth is not a function
+    at Object.<anonymous> (E:\amap-web\generator-amap-web-cms\generators\app\templates\app\controllers\page-controller.js:4:19)
+    at next (native)
+    at onFulfilled (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\koa\node_modules\co\index.js:65:19)
+    at E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\amap-web\generator-amap-web-cms\generators\app\templates\node_modules\koa\node_modules\co\index.js:69:7)

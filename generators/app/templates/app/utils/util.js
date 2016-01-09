@@ -37,7 +37,6 @@ function mkdirSync(url, mode, cb) {
 }
 module.exports = {
     md5: md5,
-    sign: sign,
     mkdirSync:mkdirSync,
     createFileIfNoExists: createFileIfNoExists
 }

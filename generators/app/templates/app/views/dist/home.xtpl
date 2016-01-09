@@ -4,5 +4,5 @@
 {{/block}}
 
 {{#block ("body")}}
-<script src="./menu2.js"></script>
+<script src="./home.js"></script>
 {{/block}}
